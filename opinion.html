@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/seriealogo.png" type="png" size=20px>
+    <title>Opinion</title>
+</head>
+<body>
+  <!-- Aquí creamos nuestra barra de navegación con las distintas pestañas (enlaces) de nuestra pagina -->
+    <div>
+        <img src="img/seriealogo.png" width="120px">
+          <a href="index.html">Inicio</a>
+          <a href="galardonados.html">Galardonados</a>
+          <a href="datos.html">Datos</a>
+          <a href="noticias.html">Ultimas Noticias</a>
+      </div>
+    <br>
+
+    <!-- Aquí creamos un formulario de feedback con distintos <label> e <input> y un <input> de valor submit -->
+    <h1>Tienes alguna opinion? Dejanos saberla!</h1>
+      <section>
+        <form name="formFeedBack">
+
+            <div>
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre"/>
+            </div>
+            <br>
+        
+            <div>
+            <label for="apellidos">Apellidos</label>
+            <input type="text" name="apellidos" id="apellidos" placeholder="Escribe tus Apellidos"/>
+            </div>
+            <br>
+
+            <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Escribe tu email" required />
+            </div>
+            <br>
+
+            <div>
+            <label for="asunto">Asunto</label>
+            <input type ="text" name="asunto" id="asunto" placeholder="Escribe tu Asunto"/>
+            </div>
+            <br>
+
+            <div>
+            <label for="mensaje">Mensaje</label>
+            <textarea name="mensaje" for="mensaje" placeholder="Escribe tu mensaje" maxlength="500"></textarea>
+            </div>
+            <br>
+
+            <input type="submit" name="enviar" value="Enviar Datos"/>
+        </form>
+      </section>
+      
+      <br>
+      <img src="img/serie-a-banners.jpg" height="200px" width="600px">
+
+    <hr size="5px" color="black" />
+    <!-- Aquí definimos un <footer> que es un pie de pagina con los datos del autor -->
+    <br>
+    <footer>Juan Alvarez 30.258.972 Universidad Valle del Momboy </footer>
+</body>
+</html>
